@@ -11,8 +11,8 @@ mlurbur@uw.cs.edu | [all that professional stuff I'm supposed to have]({{url}}/c
 #### I don't think anyone really _needs_ a personal website 
 But hey, you're here! Either I'm wrong or you're lost.
 
-#### Email me if you want to
-Love emails. Everyone loves emails. Preferably about fish or snow.
+#### Email me if you want
+Love emails. Everyone loves emails.
 
 #### That's all I got
 May I be so bold as to suggest your next internet destination?
