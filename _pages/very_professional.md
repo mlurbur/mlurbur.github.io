@@ -1,5 +1,5 @@
 ---
-permalink: /cv.html
+permalink: /cv
 layout: cv
 title: Moses Lurbur - CV
 description: Moses Lurbur's CV

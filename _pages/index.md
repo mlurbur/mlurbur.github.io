@@ -5,7 +5,7 @@ description: Home page of Moses Lurbur's very professional personal website
 ---
 
 ## Moses Lurbur
-mlurbur@uw.cs.edu | [all that professional stuff I'm supposed to have]({{url}}/cv.html)
+mlurbur@uw.cs.edu | [all that professional stuff I'm supposed to have]({{url}}/cv)
 
 ------
 
