@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>{{ page.title }}</title>
+
+   <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+
+   <!-- Typekit -->
+   <script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+
+<!-- ClickTale Top part -->
+<script type="text/javascript">
+var WRInitTime=(new Date()).getTime();
+</script>
+<!-- ClickTale end of Top part -->
+
+<div class="site">
+  <div class="title">
+    <a href="/">{{ site.name }}</a>
+    <!-- <a class="extra" href="/">home</a> -->
+  </div>
+  <p class="header-subtitle" >
+    <a href="mailto:{{ site.email }}">{{ site.email }}</a> | 
+    <a href="/static/CV.pdf">CV</a>
+  </p>
+
+  {{ content }}
+
+<div class="footer">
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+    <script>
+async function fetchQuotes() {
+    const response = await fetch('https://raw.githubusercontent.com/mlurbur/mlurbur.github.io/blob/main/static/quotes.yaml');
+    const yamlText = await response.text();
+    return jsyaml.load(yamlText);
+}
+
+function getRandomQuote(quotesArray) {
+    const randomIndex = Math.floor(Math.random() * quotesArray.length);
+    return quotesArray[randomIndex];
+}
+
+function displayRandomQuote(quotes) {
+    const randomQuote = getRandomQuote(quotes);
+    const quoteText = randomQuote.text;
+    const author = randomQuote.author;
+
+    document.getElementById("quoteDisplay").textContent = quoteText;
+    document.getElementById("authorDisplay").textContent = "- " + author;
+}
+
+window.onload = async function() {
+    const quotes = await fetchQuotes();
+    displayRandomQuote(quotes);
+};
+    </script>
+    
+      <blockquote>
+        <div id="quoteDisplay"></div>
+        <div id="authorDisplay"></div>
+      </blockquote>
+</div>
+
+</body>
+</html>
