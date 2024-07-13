@@ -1,10 +1,11 @@
 ---
 permalink: /cv.html
 layout: cv
+title: Moses Lurbur - CV
 ---
 
 ## Moses Lurbur
-mlurbur@uw.cs.edu
+mlurbur@uw.cs.edu | [GitHub](https://github.com/mlurbur)
 
 ------
 
