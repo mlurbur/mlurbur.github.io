@@ -23,6 +23,7 @@ email: mlurbur@uw.cs.edu
 description: Moses Lurbur
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "mlubur.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+quotes_list_url: "https://raw.githubusercontent.com/mlurbur/mlurbur.github.io/main/static/quotes.yaml"
 google_analytics: "G-7G5183M0JG"
 
 include:
@@ -45,7 +46,7 @@ collections:
 #
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
-#
+
 exclude:
   - .sass-cache/
   - .jekyll-cache/
@@ -53,7 +54,3 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
