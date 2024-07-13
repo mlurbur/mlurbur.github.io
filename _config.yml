@@ -19,27 +19,26 @@
 # in the templates via {{ site.myvariable }}.
 
 name: Moses Lurbur
-email: mlurbur@uw.cs.edu
-description: 
+email: mlurbur@cs.washington.edu
+github: https://github.com/mlurbur
+description: Moses Lurbur
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "mlubur.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+quotes_list_url: "https://raw.githubusercontent.com/mlurbur/mlurbur.github.io/main/static/quotes.yaml"
+google_analytics: "G-9SBMDY1NLT"
 
 include:
   - _pages
 
-description: Moses Lurbur
-
-collections:
-  pages:
-    collections_dir: _pages
-    output: true
-    permalink: /:path
+# collections:
+#   pages:
+#     collections_dir: _pages
+#     output: true
+#     permalink: /:path
 
 
 # Build settings
-# theme: minima
-plugins:
-  - jekyll-feed
+# plugins:
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -48,15 +47,17 @@ plugins:
 #
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+
+
+# easter egg
+easter_egg_key: "42"
+easter_egg_destination: /42
+easter_egg_clue: "https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy#:~:text=In%20their%20travels,as%20%2242%22."

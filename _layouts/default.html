@@ -11,9 +11,16 @@
 
 <div class="site">
 
-  {{ content }}
+{{ content }}
+
+
   
   <div class="footnotes">
+    {% include get_quotes.html %}
+    <p id="quoteDisplay"></p>
+    <cite id="authorDisplay"></cite>
     {% include credits.html %}
+  </div>
+
 </body>
 </html>

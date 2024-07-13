@@ -1,0 +1,13 @@
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        let sequence = '';
+        const secretCode = '{{site.easter_egg_key}}';
+        document.addEventListener('keydown', (event) => {
+            sequence += event.key;
+            if (sequence.endsWith(secretCode)) {
+                sessionStorage.setItem("accessGranted", "true");
+                window.location.href = '{{site.easter_egg_destination}}';
+            }
+        });
+    });
+</script>

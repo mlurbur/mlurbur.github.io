@@ -1,0 +1,8 @@
+<script>
+    if (sessionStorage.getItem("accessGranted") === "true") {
+        document.getElementById("secret-content").style.display = "block";
+    } else {
+        alert("Access denied. Redirecting to home page.");
+        window.location.href = "/";
+    }
+</script>
