@@ -1,6 +1,7 @@
 ---
 layout: index
 title: Moses Lurbur
+description: Home page of Moses Lurbur's very professional personal website
 ---
 
 ## Moses Lurbur

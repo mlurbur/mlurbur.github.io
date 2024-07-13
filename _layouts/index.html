@@ -7,6 +7,9 @@
    <!-- syntax highlighting CSS -->
    <link rel="stylesheet" href="https://latex.vercel.app/style.css">
    <link rel="icon" href="/static/quesadilla.jpg">
+   {% if jekyll.environment == 'production' %}
+   {% include analytics.html %}
+   {% endif %}
 </head>
 <body class="latex-dark-auto libertinus">
 

@@ -20,14 +20,13 @@
 
 name: Moses Lurbur
 email: mlurbur@uw.cs.edu
-description: 
+description: Moses Lurbur
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "mlubur.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+google_analytics: "G-7G5183M0JG"
 
 include:
   - _pages
-
-description: Moses Lurbur
 
 collections:
   pages:

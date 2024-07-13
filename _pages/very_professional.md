@@ -2,6 +2,7 @@
 permalink: /cv.html
 layout: cv
 title: Moses Lurbur - CV
+description: Moses Lurbur's CV
 ---
 
 ## Moses Lurbur
