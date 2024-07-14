@@ -1,13 +1,11 @@
 name: CheckLinks
 on:
-  schedule:
-    - cron: '0 0 1 * *'
   push:
     branches:
-      - master
+      - main
   pull_request:
     branches:
-      - master
+      - main
     
 
 jobs:
