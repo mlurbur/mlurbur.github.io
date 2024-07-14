@@ -4,10 +4,11 @@ title: Moses Lurbur
 description: Home page of Moses Lurbur's very professional personal website
 ---
 
-## Moses Lurbur
+## [Moses Lurbur](/){:style="color: inherit; text-decoration: none;"}
 mlurbur@uw.cs.edu | [all that professional stuff]({{url}}/cv)
 
 ------
+
 
 #### I didn't think I really _needed_ a personal website 
 But hey, you're here! Either I'm wrong or you're lost.

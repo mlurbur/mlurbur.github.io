@@ -5,7 +5,7 @@ title: Moses Lurbur - CV
 description: Moses Lurbur's CV
 ---
 
-## Moses Lurbur
+## [Moses Lurbur](/){:style="color: inherit; text-decoration: none;"}
 mlurbur@uw.cs.edu | [GitHub](https://github.com/mlurbur)
 
 ------
