@@ -21,6 +21,7 @@ jobs:
           ruby-version: 2.7.0
       - name: Setup Rubygems, Bundler, jekyll
         run: | 
+          set -eux
           gem update --system --no-document
           gem update bundler --no-document
           gem install jekyll bundler
