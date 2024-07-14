@@ -1,0 +1,27 @@
+<script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+<script>
+async function fetchQuotes() {
+    const response = await fetch('{{site.quotes_list_url}}');
+    const yamlText = await response.text();
+    return jsyaml.load(yamlText);
+}
+
+function getRandomQuote(quotesArray) {
+    const randomIndex = Math.floor(Math.random() * quotesArray.length);
+    return quotesArray[randomIndex];
+}
+
+function displayRandomQuote(quotes) {
+    const randomQuote = getRandomQuote(quotes);
+    const quoteText = randomQuote.text;
+    const author = randomQuote.author;
+
+    document.getElementById("quoteDisplay").textContent = quoteText;
+    document.getElementById("authorDisplay").textContent = "- " + author;
+}
+
+window.onload = async function() {
+    const quotes = await fetchQuotes();
+    displayRandomQuote(quotes);
+};
+    </script>
