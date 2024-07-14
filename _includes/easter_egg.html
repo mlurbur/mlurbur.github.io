@@ -6,27 +6,8 @@
             sequence += event.key;
             if (sequence.endsWith(secretCode)) {
                 sessionStorage.setItem("accessGranted", "true");
-                window.location.href = '{{site.easter_egg_destination}}'; // Replace with your new page URL
+                window.location.href = '{{site.easter_egg_destination}}';
             }
         });
     });
 </script>
-
-<!-- <input type="password" id="secret-key-input">
-
-<script>
-    document.getElementById("secret-key-input").addEventListener("keypress", function(event) {
-        if (event.key === "Enter") {
-            checkSecretKey();
-        }
-    });
-
-    function checkSecretKey() {
-        const secretKey = "{{site.easter_egg_key}}"; // Replace with your actual secret key
-        const userInput = document.getElementById("secret-key-input").value;
-        if (userInput === secretKey) {
-
-            window.location.href = "{{site.easter_egg_destination}}";
-        }
-    }
-</script> -->
