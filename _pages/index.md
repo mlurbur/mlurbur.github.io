@@ -9,7 +9,7 @@ mlurbur@uw.cs.edu | [all that professional stuff]({{url}}/cv)
 
 ------
 
-#### I don't think anyone really _needs_ a personal website 
+#### I didn't think I really _needed_ a personal website 
 But hey, you're here! Either I'm wrong or you're lost.
 
 #### Email me if you want
