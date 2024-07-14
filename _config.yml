@@ -54,3 +54,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules/
+
+
+# easter egg
+easter_egg_key: "42"
+easter_egg_destination: /42
