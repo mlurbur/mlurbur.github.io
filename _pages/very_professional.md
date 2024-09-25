@@ -6,27 +6,35 @@ description: Moses Lurbur's CV
 ---
 
 ## [Moses Lurbur](/){:style="color: inherit; text-decoration: none;"}
-mlurbur@uw.cs.edu | [GitHub](https://github.com/mlurbur)
+{{site.email}} | [GitHub]({{site.github}})
 
-------
 
-TBD
+### Research interests
+I am broadly interested in using computer vision and other machine learning techniques to improve our ability to collect and analyze data in the natural world.
 
-----
 
 ### Education
-- Brown University, Providence, RI
-    - Bachelor of Science, Computer Science and Economics
 - University of Washington, Seattle, WA [current]
     - PhD, Computer Science
+- Brown University, Providence, RI
+    - Bachelor of Science, Computer Science and Economics
 
-### Research
-[coming soon]
+<!-- ### Research
+[coming soon] -->
    
 ### Presentations
 - Deep learning video analysis to support trawl fishery sustainability, _Ocean Sciences Meeting_, 2024
 - Using machine learning to differentiate species and count fish in trawl nets, _The Food and Agriculture Organization of the United Nations’ Artificial Intelligence for a Digital Blue Planet forum_, 2021
 
-### Misc
+### Teaching
+- Head Teaching Assistant
+    - CSCI 0111: Computing Foundations: Data, _Prof. Kathi Fisler_, Spring 2020
+
+- Teaching Assistant
+    - CSCI 1430: Computer Vision, _Prof. Srinath Sridhar_, Fall 2021
+    - CSCI 0111: Computing Foundations: Data, _Prof. Doug Woos_, Fall 2019
+
+### Honors and awards
+- Microsoft Endowed Fellowship in Computer Science and Engineering, 2024
 - US Department of State Critical Language Scholar, _Malang, Indonesia_, 2019
 - Brown Connect Presidential LINK funding award, _Providence, RI_, 2018

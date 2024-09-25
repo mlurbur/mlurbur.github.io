@@ -8,4 +8,5 @@ description: Easter egg page
 
 ![Nice](/static/quesadilla.jpg "Kaleetan peak 2042")
 
-My lil sis is da bomb
+“For a moment, nothing happened. Then, after a second or so, nothing continued to happen.”
+― Douglas Adams, The Hitchhiker’s Guide to the Galaxy
