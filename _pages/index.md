@@ -8,7 +8,7 @@ description: Home page of Moses Lurbur's very professional personal website
 ## [Moses Lurbur](/){:style="color: inherit; text-decoration: none;"}
 {{site.email}} | [All that professional stuff]({{url}}/cv)
 
-------
+---
 
 #### Email me if you want
 Love emails. Everyone loves emails.
