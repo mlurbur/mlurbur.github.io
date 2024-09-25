@@ -60,3 +60,4 @@ exclude:
 # easter egg
 easter_egg_key: "42"
 easter_egg_destination: /42
+easter_egg_clue: "https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy#:~:text=In%20their%20travels,as%20%2242%22."
