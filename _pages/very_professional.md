@@ -15,9 +15,9 @@ I am broadly interested in using computer vision and other machine learning tech
 
 ### Education
 - University of Washington, Seattle, WA [current]
-    - PhD, Computer Science
+    - PhD, _Computer Science_, [current]
 - Brown University, Providence, RI
-    - Bachelor of Science, Computer Science and Economics
+    - Bachelor of Science, _Computer Science and Economics_, 2022
 
 <!-- ### Research
 [coming soon] -->
