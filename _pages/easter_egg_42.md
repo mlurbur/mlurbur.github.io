@@ -8,5 +8,7 @@ description: Easter egg page
 
 ![Nice](/static/quesadilla.jpg "Kaleetan peak 2042")
 
-<p>“For a moment, nothing happened. Then, after a second or so, nothing continued to happen.”</p>
+<p>
+For a moment, nothing happened. Then, after a second or so, nothing continued to happen.
 <cite>- Douglas Adams, The Hitchhiker’s Guide to the Galaxy</cite>
+</p>

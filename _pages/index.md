@@ -6,15 +6,14 @@ description: Home page of Moses Lurbur's very professional personal website
 ---
 
 ## [Moses Lurbur](/){:style="color: inherit; text-decoration: none;"}
-{{site.email}} | [All that professional stuff]({{url}}/cv)
+{{site.email}} | [CV]({{url}}/cv)
 
 ---
 
-#### Email me if you want
-Love emails. Everyone loves emails.
+#### I'll keep it brief
+I'm broadly interested in using computer vision and other machine learning techniques to improve our ability to collect and analyze data in the natural world.
 
-#### That's all I got
-May I be so bold as to suggest your next internet destination?
+##### May I be so bold as to suggest your next internet destination?
 
 - [Comedy Photography Wildlife Awards](https://www.comedywildlifephoto.com/gallery/finalists/) - this is gonna be the best decision you've made all day. Promise.
 - [Slashdot](https://slashdot.org/) - news for the technologically inclined
