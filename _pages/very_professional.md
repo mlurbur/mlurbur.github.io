@@ -10,10 +10,6 @@ description: Moses Lurbur's CV
 
 ---
 
-### Research interests
-I am broadly interested in using computer vision and other machine learning techniques to improve our ability to collect and analyze data in the natural world.
-
-
 ### Education
 - University of Washington, Seattle, WA
     - PhD, _Computer Science_, [current]
