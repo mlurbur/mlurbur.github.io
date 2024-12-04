@@ -20,8 +20,8 @@ description: Moses Lurbur's CV
 [coming soon] -->
    
 ### Presentations
-- Deep learning video analysis to support trawl fishery sustainability, _Ocean Sciences Meeting_, 2024
-- Using machine learning to differentiate species and count fish in trawl nets, _The Food and Agriculture Organization of the United Nations’ Artificial Intelligence for a Digital Blue Planet forum_, 2021
+- Deep learning video analysis to support trawl fishery sustainability, _Ocean Sciences Meeting_, 2024 ([Poster]({{url}}/static/Lurbur_OSM_Poster.pdf){:target="_blank"}, [tracking videos](https://players.brightcove.net/659677166001/b52e441e-691f-4320-b878-ca677fc16c5e_default/index.html?playlistId=1790816020009450014){:target="_blank"})
+- Using machine learning to differentiate species and count fish in trawl nets, _The Food and Agriculture Organization of the United Nations’ Artificial Intelligence for a Digital Blue Planet forum_, 2021 ([Recorded talk](https://www.youtube.com/watch?v=mSMeGG_FuVQ){:target="_blank"})
 
 ### Teaching
 - Head Teaching Assistant
