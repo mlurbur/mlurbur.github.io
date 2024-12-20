@@ -14,7 +14,7 @@ description: Moses Lurbur's CV
 - University of Washington, Seattle, WA
     - PhD, _Computer Science_, [current]
 - Brown University, Providence, RI
-    - Bachelor of Science, _Computer Science and Economics_, 2022
+    - B.S., _Computer Science and Economics_, 2022
 
 <!-- ### Research
 [coming soon] -->
