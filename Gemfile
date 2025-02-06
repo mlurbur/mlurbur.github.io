@@ -34,3 +34,7 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 # check for broken links
 gem "html-proofer"
+
+# things that were missing apparently
+gem 'csv'
+gem 'logger'
