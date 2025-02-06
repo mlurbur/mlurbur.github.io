@@ -20,6 +20,7 @@ description: Moses Lurbur's CV
 [coming soon] -->
    
 ### Presentations
+- Automated Video Analysis for Marine Science, _University of Washington Fisheries Think Tank_, 2025
 - Deep learning video analysis to support trawl fishery sustainability, _Ocean Sciences Meeting_, 2024
 - Using machine learning to differentiate species and count fish in trawl nets, _The Food and Agriculture Organization of the United Nations’ Artificial Intelligence for a Digital Blue Planet forum_, 2021
 
