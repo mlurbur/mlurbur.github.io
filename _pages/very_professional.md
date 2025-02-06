@@ -13,6 +13,7 @@ description: Moses Lurbur's CV
 ### Education
 - University of Washington, Seattle, WA
     - PhD, _Computer Science_, [current]
+    - Advised by [René Just](https://homes.cs.washington.edu/~rjust/){:target="_blank"}
 - Brown University, Providence, RI
     - B.S., _Computer Science and Economics_, 2022
 
