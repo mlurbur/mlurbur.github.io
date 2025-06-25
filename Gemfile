@@ -38,3 +38,4 @@ gem "html-proofer"
 # things that were missing apparently
 gem 'csv'
 gem 'logger'
+gem 'base64'
