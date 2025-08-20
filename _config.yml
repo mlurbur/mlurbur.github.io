@@ -27,6 +27,9 @@ url: "mlubur.github.io" # the base hostname & protocol for your site, e.g. http:
 quotes_list_url: "https://raw.githubusercontent.com/mlurbur/mlurbur.github.io/main/static/quotes.yaml"
 google_analytics: "G-9SBMDY1NLT"
 
+# Layout settings
+max_width: "100ch" # Text column width
+
 include:
   - _pages
 
