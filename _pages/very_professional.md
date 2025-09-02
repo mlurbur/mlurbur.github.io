@@ -12,7 +12,7 @@ description: Moses Lurbur's CV
 
 ### Research
 - "Multi-object tracking in the trawl: a performance comparison of tracking accuracy across tracking algorithms, detection models, and frame rates", **Moses Lurbur**, Katherine C. Wilson, Noëlle Yochum{% include unnumbered_sidenote.html id="sn-1" content="under review" %}
-- "Automated fish detection in videos to support commercial fishing sustainability and innovation in the Alaska walleye pollock (_Gadus chalcogrammus_) trawl fishery", Katherine C. Wilson, **Moses Lurbur**, Noëlle Yochum{% include unnumbered_sidenote.html id="sn-2" content="under review" %}
+- "Automated fish detection in videos to support commercial fishing sustainability and innovation in the Alaska walleye pollock (_Gadus chalcogrammus_) trawl fishery", Katherine C. Wilson, **Moses Lurbur**, Noëlle Yochum, _ICES Journal of Marine Science_{% include unnumbered_sidenote.html id="sn-1" content="accepted!" %}
    
 ### Presentations
 - Automated Video Analysis for Marine Science, _University of Washington Fisheries Think Tank_, 2025 (talk)
@@ -27,11 +27,11 @@ description: Moses Lurbur's CV
     - B.S., _Computer Science and Economics_, 2022
 
 ### Teaching
-- Head Teaching Assistant
-    - CSCI 0111: Computing Foundations: Data, _Prof. Kathi Fisler_, Spring 2020
-
+    
 - Teaching Assistant
-    - CSCI 1430: Computer Vision, _Prof. Srinath Sridhar_, Fall 2021
+    - CSE 0414: Introduction to Database Systems, _Prof. Ryan Maas_, Fall 2025
+    - CSCI 1430: Computer Vision, _Prof. Srinath Sridhar_, Fall 2021{% include unnumbered_sidenote.html id="sn-1" content="Brown University ↓" %}
+    - CSCI 0111: Computing Foundations: Data, _Prof. Kathi Fisler_, Spring 2020
     - CSCI 0111: Computing Foundations: Data, _Prof. Doug Woos_, Fall 2019
 
 ### Honors and awards
