@@ -12,7 +12,7 @@ description: Moses Lurbur's CV
 
 ### Research
 - "Multi-object tracking in the trawl: a performance comparison of tracking accuracy across tracking algorithms, detection models, and frame rates", **Moses Lurbur**, Katherine C. Wilson, Noëlle Yochum{% include unnumbered_sidenote.html id="sn-1" content="under review" %}
-- "Automated fish detection in videos to support commercial fishing sustainability and innovation in the Alaska walleye pollock (_Gadus chalcogrammus_) trawl fishery", Katherine C. Wilson, **Moses Lurbur**, Noëlle Yochum, _ICES Journal of Marine Science_{% include unnumbered_sidenote.html id="sn-1" content="accepted!" %}
+- "Automated fish detection in videos to support commercial fishing sustainability and innovation in the Alaska walleye pollock (_Gadus chalcogrammus_) trawl fishery", Katherine C. Wilson, **Moses Lurbur**, Noëlle Yochum, _ICES Journal of Marine Science_, 2025{% include unnumbered_sidenote.html id="sn-1" content="accepted!" %}
    
 ### Presentations
 - Automated Video Analysis for Marine Science, _University of Washington Fisheries Think Tank_, 2025 (talk)
