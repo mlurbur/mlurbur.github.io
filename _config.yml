@@ -60,7 +60,11 @@ exclude:
   - node_modules/
 
 
-# easter egg
+# easter eggs
 easter_egg_key: "42"
 easter_egg_destination: /42
 easter_egg_clue: "https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy#:~:text=In%20their%20travels,as%20%2242%22."
+
+# second easter egg
+easter_egg_key_2: "will"
+easter_egg_destination_2: "https://www.youtube.com/watch?v=8OtMq2s0TyM"

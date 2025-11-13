@@ -6,7 +6,7 @@ description: Home page of Moses Lurbur's very professional personal website
 ---
 
 ## [Moses Lurbur](/){:style="color: inherit; text-decoration: none;"}
-{{site.email}} | [CV]({{url}}/cv)
+{{site.email}} | [CV]({{url}}/cv) | [GitHub]({{site.github}})
 
 ---
 

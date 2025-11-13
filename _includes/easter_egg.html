@@ -1,12 +1,24 @@
 <script>
     document.addEventListener('DOMContentLoaded', () => {
         let sequence = '';
-        const secretCode = '{{site.easter_egg_key}}';
+        const secretCode1 = '{{site.easter_egg_key}}';
+        const secretCode2 = '{{site.easter_egg_key_2}}';
+        const destination1 = '{{site.easter_egg_destination}}';
+        const destination2 = '{{site.easter_egg_destination_2}}';
+        
         document.addEventListener('keydown', (event) => {
             sequence += event.key;
-            if (sequence.endsWith(secretCode)) {
+            
+            // Check first easter egg
+            if (secretCode1 && sequence.endsWith(secretCode1)) {
                 sessionStorage.setItem("accessGranted", "true");
-                window.location.href = '{{site.easter_egg_destination}}';
+                window.location.href = destination1;
+            }
+            
+            // Check second easter egg
+            if (secretCode2 && secretCode2 !== 'null' && sequence.endsWith(secretCode2)) {
+                sessionStorage.setItem("accessGranted", "true");
+                window.location.href = destination2;
             }
         });
     });

@@ -15,6 +15,7 @@ description: Moses Lurbur's CV
 - "[Automated fish detection in videos to support commercial fishing sustainability and innovation in the Alaska walleye pollock (_Gadus chalcogrammus_) trawl fishery](https://academic.oup.com/icesjms/article/82/9/fsaf168/8262706){:target="_blank"}", Katherine C. Wilson, **Moses Lurbur**, Noëlle Yochum, _ICES Journal of Marine Science_, 2025 ([pdf]({{url}}/static/salmon_detection_2025.pdf))
    
 ### Presentations
+- The challenge of the Alaskan snow crab: building species-agnostic tools for behavior analysis, _University of Washington Affiliates Day_, 2025 (talk)
 - Automated Video Analysis for Marine Science, _University of Washington Fisheries Think Tank_, 2025 (talk)
 - Deep learning video analysis to support trawl fishery sustainability, _Ocean Sciences Meeting_, 2024 ([poster]({{url}}/static/Lurbur_OSM_Poster.pdf), [tracking videos](https://players.brightcove.net/659677166001/b52e441e-691f-4320-b878-ca677fc16c5e_default/index.html?playlistId=1790816020009450014){:target="_blank"})
 - Using machine learning to differentiate species and count fish in trawl nets, _The Food and Agriculture Organization of the United Nations’ Artificial Intelligence for a Digital Blue Planet forum_, 2021 ([recorded talk](https://www.youtube.com/watch?v=mSMeGG_FuVQ){:target="_blank"})
