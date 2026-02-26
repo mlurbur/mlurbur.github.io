@@ -11,12 +11,13 @@ description: Moses Lurbur's CV
 ---
 
 ### Research
-- "Multi-object tracking in the trawl: a performance comparison of tracking accuracy across tracking algorithms, detection models, and frame rates", **Moses Lurbur**, Katherine C. Wilson, Noëlle Yochum{% include unnumbered_sidenote.html id="sn-1" content="under review" %}
-- "[Automated fish detection in videos to support commercial fishing sustainability and innovation in the Alaska walleye pollock (_Gadus chalcogrammus_) trawl fishery](https://academic.oup.com/icesjms/article/82/9/fsaf168/8262706){:target="_blank"}", Katherine C. Wilson, **Moses Lurbur**, Noëlle Yochum, _ICES Journal of Marine Science_, 2025 ([pdf]({{url}}/static/salmon_detection_2025.pdf))
+- "[Towards automated bycatch monitoring: Optimizing and evaluating multi-object tracking of salmon in pollock trawls](https://doi.org/10.1016/j.ecoinf.2026.103674)", **Moses Lurbur**, Katherine C. Wilson, Noëlle Yochum, _Ecological Informatics_, 2026 ([pdf]({{url}}/static/salmon_tracking_2026.pdf))
+- "[Automated fish detection in videos to support commercial fishing sustainability and innovation in the Alaska walleye pollock (_Gadus chalcogrammus_) trawl fishery](https://doi.org/10.1093/icesjms/fsaf168){:target="_blank"}", Katherine C. Wilson, **Moses Lurbur**, Noëlle Yochum, _ICES Journal of Marine Science_, 2025 ([pdf]({{url}}/static/salmon_detection_2025.pdf))
    
-### Presentations
+### Invited presentations
+- Collecting computer vision-ready image data: lessons from the lab and field, _Western Groundfish Conference_, 2026 (talk)
 - The challenge of the Alaskan snow crab: building species-agnostic tools for behavior analysis, _University of Washington Affiliates Day_, 2025 (talk)
-- Automated Video Analysis for Marine Science, _University of Washington Fisheries Think Tank_, 2025 (talk)
+- Automated video analysis for marine science, _University of Washington Fisheries Think Tank_, 2025 (talk)
 - Deep learning video analysis to support trawl fishery sustainability, _Ocean Sciences Meeting_, 2024 ([poster]({{url}}/static/Lurbur_OSM_Poster.pdf), [tracking videos](https://players.brightcove.net/659677166001/b52e441e-691f-4320-b878-ca677fc16c5e_default/index.html?playlistId=1790816020009450014){:target="_blank"})
 - Using machine learning to differentiate species and count fish in trawl nets, _The Food and Agriculture Organization of the United Nations’ Artificial Intelligence for a Digital Blue Planet forum_, 2021 ([recorded talk](https://www.youtube.com/watch?v=mSMeGG_FuVQ){:target="_blank"})
 
@@ -30,6 +31,7 @@ description: Moses Lurbur's CV
 ### Teaching
     
 - Teaching Assistant
+    - CSE 0390F: Tackling Climate Change with Technology, _Prof. Travis McCoy_, Winter 2026
     - CSE 0414: Introduction to Database Systems, _Prof. Ryan Maas_, Fall 2025
     - CSCI 1430: Computer Vision, _Prof. Srinath Sridhar_, Fall 2021{% include unnumbered_sidenote.html id="sn-1" content="Brown University ↓" %}
     - CSCI 0111: Computing Foundations: Data, _Prof. Kathi Fisler_, Spring 2020
