@@ -10,6 +10,9 @@ description: Home page of Moses Lurbur's very professional personal website
 
 ---
 
+{% include carousel.html %}
+
+---
 #### Who? Me?
 I'm broadly interested in using computer vision and other machine learning techniques to improve our ability to collect and analyze data in the natural world.
 

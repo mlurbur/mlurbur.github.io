@@ -1,0 +1,45 @@
+{% assign items = site.data.rotation %}
+{% if items.size > 0 %}
+<div class="media-carousel" id="media-carousel">
+  {% for item in items %}
+  <div class="media-carousel-item{% unless forloop.first %} mc-hidden{% endunless %}">
+    <img src="{{ item.src }}" alt="{{ item.caption | strip_html | truncate: 100 }}">
+    {% if item.caption and item.caption != "" %}
+    {% assign caption = item.caption | replace: '{{url}}', site.url %}
+    <div class="media-caption">{{ caption | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</div>
+    {% endif %}
+  </div>
+  {% endfor %}
+  {% if items.size > 1 %}
+  <button class="mc-btn" onclick="mcNext()" aria-label="Next">&#8250;</button>
+  {% endif %}
+</div>
+
+<style>
+.media-carousel { position: relative; margin: 1.5em 0 2em; }
+.media-carousel-item img { width: 100%; height: auto; display: block; }
+.media-carousel-item.mc-hidden { display: none; }
+.media-caption { font-size: 0.923em; margin-top: 0.5em; }
+.mc-btn {
+  position: absolute; right: 0; top: 50%;
+  transform: translateY(-50%);
+  background: none; border: none;
+  font-size: 2em; line-height: 1;
+  cursor: pointer; color: inherit;
+  opacity: 0.35; padding: 0 0.15em;
+}
+.mc-btn:hover { opacity: 0.9; }
+</style>
+
+<script>
+(function () {
+  var idx = 0;
+  var items = document.querySelectorAll('#media-carousel .media-carousel-item');
+  window.mcNext = function () {
+    items[idx].classList.add('mc-hidden');
+    idx = (idx + 1) % items.length;
+    items[idx].classList.remove('mc-hidden');
+  };
+}());
+</script>
+{% endif %}
